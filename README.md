@@ -31,6 +31,13 @@ To use another port:
 - `Bike Pedal.gltf.xz` + `Bike Pedal.bin.xz` — compressed scene files used by
   the configurator's default runtime mode.
 
+## Privacy
+
+The local pages contain no analytics or telemetry integrations. External social
+preview metadata, generator fingerprints, and the obsolete WebXR origin-trial
+token from the original export have been removed. Referrer information is not
+sent when the pages navigate to or load a third-party URL.
+
 ## Rights
 
 These are third-party demonstration assets fetched from
