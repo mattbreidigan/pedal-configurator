@@ -1,20 +1,6 @@
-# Pedal configurator — local copy
-
-This folder mirrors the public pedal configurator embedded on Tom Dent's
-3D-product-configurator demonstration page.
+# Pedal configurator
 
 ## Run
-
-From PowerShell:
-
-```powershell
-cd "D:\New folder\pedal-configurator"
-python validate.py
-.\serve.ps1
-```
-
-Open <http://localhost:8080/>. Do not open `index.html` directly with a
-`file://` URL: browsers commonly block glTF buffers and textures in that mode.
 
 To use another port:
 
@@ -31,17 +17,3 @@ To use another port:
 - `Bike Pedal.gltf.xz` + `Bike Pedal.bin.xz` — compressed scene files used by
   the configurator's default runtime mode.
 
-## Privacy
-
-The local pages contain no analytics or telemetry integrations. External social
-preview metadata, generator fingerprints, and the obsolete WebXR origin-trial
-token from the original export have been removed. Referrer information is not
-sent when the pages navigate to or load a third-party URL.
-
-## Rights
-
-These are third-party demonstration assets fetched from
-<https://tomdent.co.uk/3d-product-configurators/>. Local possession does not
-transfer copyright or grant redistribution/commercial-use rights. Verge3D's
-runtime is also subject to its applicable license. Confirm permissions with the
-rights holders before publishing, modifying for commercial use, or redistributing.
